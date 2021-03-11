@@ -5,6 +5,7 @@ import Search from '../components/search'
 class Page extends Component {
   componentDidMount() {
     this.props.getPokemons()
+    //check
   }
 
   handleSearch(event) {
